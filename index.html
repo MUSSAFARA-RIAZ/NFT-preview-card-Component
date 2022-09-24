@@ -20,8 +20,10 @@
    position: relative;
    top: 50px;
    width: 280px;
-   height: 400px;
+   height: 500px;
    margin: auto;
+   border-radius: 10px;
+   padding: 10px;
   
 
 
@@ -30,6 +32,7 @@
    width: 250px;
    height: 220px;
    padding: 15px;
+   border-radius: 20px;
   }
   h3{
    color: aqua;
@@ -40,21 +43,45 @@
    height: 20px;
   }
   #amount-tag{
-   display: flex;
-   flex-direction: row;
+   display: grid;
+   grid-template-columns: repeat(4,70px);
+
   }
-  h5,p{
+  #eth{
+   margin-left: -20px;
+  }
+  
+  h5{
+   margin-left: -20px;
    color: white;
-   margin: 0;
+
   }
-  #eh{
-   position:relative;
-   top: 5px;
-  }
-  #clock{
-   width: 20px;
+  hr{
+   color: gray;
+   width: 242px;
+   margin-left: 18px;
    
+
+
   }
+  #footer{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-top: 0px;
+   display: inline;
+   position: relative;
+   top: -10px;
+  }
+  span{
+   color: white;
+   position: relative;
+   top: -40px;
+  }
+  
+
+ 
+
  </style>
 </head>
 <body>
@@ -67,20 +94,24 @@
     <div id="amount-tag">
     
      <img id="eh" src="icon-ethereum.svg" alt="">
-     <h3>0.041ETH</h3>
+     <h3 id="eth">0.041ETH</h3>
   
    
      <img id="clock" src="icon-clock.svg" alt="">
      <h5>3 days left</h5>
-    
+     <div id="line">
+      <hr>
 
-    
+     </div>
+   </div>
+   <img id="footer" src="image-avatar.png" alt="">
    
-
-
+   <span>Creation of Juliee </span>
   </div>
+    
+ 
 
- </div>
+
 
  
 </body>
