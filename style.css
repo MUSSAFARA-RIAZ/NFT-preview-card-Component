@@ -1,0 +1,86 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+.container{
+ background-color:#0c1c2d ;
+ width: 100%;
+ height: 150vh;
+}
+#child-container{
+ background-color: rgb(9,44,83);
+ position: relative;
+ top: 50px;
+ width: 280px;
+ height: 500px;
+ margin: auto;
+ border-radius: 10px;
+ padding: 10px;
+
+
+
+}
+img{
+ width: 250px;
+ height: 220px;
+ padding: 15px;
+ border-radius: 20px;
+}
+h3{
+ color: aqua;
+}
+
+#eh,#clock{
+ width: 20px;
+ height: 20px;
+ margin-top: 7px;
+}
+#amount-tag{
+ display: grid;
+ grid-template-columns: repeat(4,70px);
+
+}
+#eth{
+ margin-left: -20px;
+}
+
+h5{
+ margin-left: -20px;
+ color: white;
+
+}
+hr{
+ color: gray;
+ width: 242px;
+ margin-left: 18px;
+ 
+
+
+}
+#footer{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin-top: 0px;
+ display: inline;
+ position: relative;
+ top: -10px;
+}
+span{
+ color: white;
+ position: relative;
+ top: -40.1px;
+
+}
+#last-line{
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+ margin-top: 70px;
+}
+#text{
+ color: white;
+}
+p{
+  font-family: 'Poppins';
+}
