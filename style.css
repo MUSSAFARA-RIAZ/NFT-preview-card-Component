@@ -16,9 +16,6 @@ body{
  margin: auto;
  border-radius: 10px;
  padding: 10px;
-
-
-
 }
 img{
  width: 250px;
@@ -38,24 +35,18 @@ h3{
 #amount-tag{
  display: grid;
  grid-template-columns: repeat(4,70px);
-
 }
 #eth{
  margin-left: -20px;
 }
-
 h5{
  margin-left: -20px;
  color: white;
-
 }
 hr{
  color: gray;
  width: 242px;
  margin-left: 18px;
- 
-
-
 }
 #footer{
  width: 50px;
